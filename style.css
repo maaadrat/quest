@@ -1,0 +1,170 @@
+
+		html{
+			height: 100%;
+		}
+		@font-face{
+			src:url(18473.ttf);
+			font-family: my-font;
+		}
+		body{
+			font-family: my-font;
+			color: white;
+			height: 100%;	
+		}
+		.school{
+			position: absolute;
+			top:20%;
+			left: 70%
+		}
+		.mastery{
+			top:60%;
+			position: absolute;
+			left:40%;
+		}
+		.main_player{
+			position: absolute;
+			top:50%;
+			left: 50%;
+			transition:  0.8s;
+		}
+		.arena{
+			position: absolute;
+			top:20%;
+			left: 30%;
+		}
+		.loc2_teacher {
+			height: 100px;
+			width: 80px;
+			margin-left: 55%; 
+			position: absolute; 
+			margin-top: 10%;
+            background-image: url(Loc2/female_stand.png);
+            background-size: 100% 100%;
+		}
+		.loc2_talk {
+			position: absolute;
+			width: 300px;
+			margin-left: 56%;
+			display: none;
+			background-image: url(Loc2/talk.png);
+			background-size: 100% 100%;
+			color: black;
+			padding: 50px;
+		}
+		.loc2_pravilno{
+			background-color: gray; width: 100px; position: absolute;
+		}
+		.loc2_player {
+			left:30%; top:40%; position: absolute;
+		}
+		.loc2_variants {
+			background-color: gray; width: 100px; position: absolute;
+		}
+		.loc2_variants_block{
+			display: flex; position: absolute; top: 70%;left: 2%; display:none;
+		}
+		.loc2_timeSize {
+			font-size: 30px
+		}
+		.loc2_pole {
+			margin-top: 25%;
+			position: absolute;
+		}
+		.sword {
+			width: 130px; border: white 2px solid; display: none
+		}
+		.nojni {
+			width: 130px; border: white 2px solid; display: none
+		}
+		.shield {
+			width: 130px; border: white 2px solid; display: none
+		}
+		.blacksmith {
+			background-image: url(Loc1/blacksmith.png);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			display: none;
+			width: 240px;
+			height: 320px;
+			background-size: 100% 100%;
+		}
+		.anvil {
+			background-image: url(Loc1/anvil.png);
+			width: auto;
+			height: 160px;
+			width: 160px;
+			top: 64%;
+			left: 45%;
+			display: none;
+			position: absolute;
+			background-size: 100% 100%;
+		}
+		.loc1_talk {
+			position: absolute;
+			width: 300px;
+			left: 57%;
+			top: 34%;
+			display: none;
+			background-image: url(Loc2/talk.png);
+			background-size: 100% 100%;
+			color: black;
+			padding: 70px;
+		}
+		.loc1_mainPlayer {
+			position: absolute;
+			top: 66%;
+			left: 38%;
+			display: none;
+		}
+		.loc3_mainPlayer {
+			position: absolute;
+			top: 80%;
+			left: 42%;
+			display: none;
+			transition: 0.4s;
+		}
+		.loc3_enemy {
+			position: absolute;
+			top: 65%;
+			left: 50%;
+			display: none;
+			height: 320px;
+			transition: 0.4s;
+		}
+		.HUD {
+			position: absolute;
+			left: 40%;
+			top: 60%;
+			width: 500px;
+			height: 100px;
+			display: none;
+		}
+		.player_hp {
+			height: 30px;
+			width: 200px;
+			background: red;
+			transition: 0.5s;
+		}
+		.enemy_hp {
+			height: 30px;
+			width: 200px;
+			background: red;
+			margin-left: auto;
+			transition: 0.5s;
+		}
+		.HUD-font {
+			font-family: arial;
+			font-size: 20px;
+			color: white;
+			font-weight: bolder;
+			text-align: center;
+		}
+		.button {
+			position: absolute;
+			width: 150px;
+			height: 60px;
+			margin-left: auto;
+			margin-right: auto;
+			top: 40%;
+		}
